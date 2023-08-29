@@ -1,0 +1,28 @@
+.imgConntainer {
+  /* display: flex;
+  flex-wrap: wrap; */
+  /* display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+   */
+
+  display: flex;
+  flex-wrap: wrap;
+  width: 80vw;
+}
+.imgConntainer img {
+  height: 300px;
+  width: 250px;
+  margin: 5px;
+}
+
+@media (max-width: 1300px) {
+  .imgConntainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .imgConntainer img {
+    border: 2px solid red;
+  }
+}

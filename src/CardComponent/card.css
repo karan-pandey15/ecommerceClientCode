@@ -1,0 +1,88 @@
+.card {
+  width: 33.3333%;
+  cursor: pointer;
+}
+
+.card:hover::after {
+  background-color: rgba(0, 0, 0, 0.3);
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.card:hover .small-text {
+  color: gray;
+}
+
+.card:hover .big-text {
+  color: gray;
+}
+
+.small-text {
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  position: absolute;
+  top: 18px;
+  left: 13px;
+  color: #fff;
+}
+
+.big-text {
+  /* color: #000; */
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+  line-height: 32px;
+  position: absolute;
+  top: 40px;
+  left: 13px;
+  color: #fff;
+}
+
+@media (max-width: 1200px) {
+  .card {
+    width: 50%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .card {
+    width: 100%;
+  }
+
+  .small-text {
+    font-size: 18px;
+  }
+
+  .big-text {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+
+@media (max-width: 800px) {
+  .card {
+    width: 50%;
+  }
+
+  .small-text {
+    font-size: 16px;
+  }
+
+  .big-text {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+
+@media (max-width: 650px) {
+  .card {
+    width: 100%;
+  }
+}

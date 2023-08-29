@@ -1,0 +1,316 @@
+[
+    {
+      "price": 80,
+      "title": "throw pillow on bed frame",
+      "image": "../images/bed1.png",
+      "star_className": "fa-solid fa-star",
+      "cart_className": "fa-solid fa-cart-shopping",
+      "category": "Beds",
+      "brand": "Amendo"
+    },
+    {
+      "price": 80,
+      "title": "black chair on white snow",
+      "image": "../images/chair6.png",
+      "star_className": "fa-solid fa-star",
+      "cart_className": "fa-solid fa-cart-shopping",
+      "category": "Chairs",
+      "brand": "Ikea"
+    },
+    {
+      "price": 80,
+      "title": "brown and gray table and chair set",
+      "image": "../images/table4.png",
+      "star_className": "fa-solid fa-star",
+      "cart_className": "fa-solid fa-cart-shopping",
+      "category": "Tables",
+      "brand": "Amendo"
+    },
+    {
+      "price": 80,
+      "title": "white wooden dining table set",
+      "image": "../images/accessories1.png",
+      "star_className": "fa-solid fa-star",
+      "cart_className": "fa-solid fa-cart-shopping",
+      "category": "Accessories",
+      "brand": "Ikea"
+    },
+    {
+      "price": 80,
+      "title": "a chair and a table in a room",
+      "image": "../images/furniture1.png",
+      "star_className": "fa-solid fa-star",
+      "cart_className": "fa-solid fa-cart-shopping",
+      "category": "Furniture",
+      "brand": "The Factory"
+    },
+    {
+      "price": 80,
+      "title": "gray pedded chair",
+      "image": "../images/homeDeco1.png",
+      "star_className": "fa-solid fa-star",
+      "cart_className": "fa-solid fa-cart-shopping",
+      "category": "Home Deco",
+      "brand": "Amendo"
+    },
+    {
+      "price": 80,
+      "title": "brown wooden table with chair",
+      "image": "../images/dressing1.png",
+      "star_className": "fa-solid fa-star",
+      "cart_className": "fa-solid fa-cart-shopping",
+      "category": "Dressings",
+      "brand": "Amendo"
+    },
+    {
+      "price": 80,
+      "title": "tufted white upholstered bed",
+      "image": "../images/bed2.png",
+      "star_className": "fa-solid fa-star",
+      "cart_className": "fa-solid fa-cart-shopping",
+      "category": "Beds",
+      "brand": "Amendo"
+    },
+  
+    {
+      "price": 80,
+      "title": "white and brown floral bed linen",
+      "image": "../images/bed4.png",
+      "star_className": "fa-solid fa-star",
+      "cart_className": "fa-solid fa-cart-shopping",
+      "category": "Beds",
+      "brand": "Amendo"
+    },
+    {
+      "price": 80,
+      "title": "white bed linen on bed",
+      "image": "../images/bed5.png",
+      "star_className": "fa-solid fa-star",
+      "cart_className": "fa-solid fa-cart-shopping",
+      "category": "Beds",
+      "brand": "The Factory"
+    },
+    {
+      "price": 80,
+      "title": "white bedspread and black wooden bed",
+      "image": "../images/bed6.png",
+      "star_className": "fa-solid fa-star",
+      "cart_className": "fa-solid fa-cart-shopping",
+      "category": "Beds",
+      "brand": "Ikea"
+    },
+  
+    {
+      "price": 80,
+      "title": "gray and white pedded chair",
+      "image": "../images/chair7.png",
+      "star_className": "fa-solid fa-star",
+      "cart_className": "fa-solid fa-cart-shopping",
+      "category": "Chairs",
+      "brand": "The Factory"
+    },
+    {
+      "price": 80,
+      "title": "oval white wooden table with chairs",
+      "image": "../images/chair8.png",
+      "star_className": "fa-solid fa-star",
+      "cart_className": "fa-solid fa-cart-shopping",
+      "category": "Chairs",
+      "brand": "Ikea"
+    },
+    {
+      "price": 80,
+      "title": "brown wooden chair beside plant",
+      "image": "../images/chair9.png",
+      "star_className": "fa-solid fa-star",
+      "cart_className": "fa-solid fa-cart-shopping",
+      "category": "Chairs",
+      "brand": "Artdeco"
+    },
+    {
+      "price": 80,
+      "title": "white and black chair beside white table",
+      "image": "../images/chair10.png",
+      "star_className": "fa-solid fa-star",
+      "cart_className": "fa-solid fa-cart-shopping",
+      "category": "Chairs",
+      "brand": "Artdeco"
+    },
+  
+    {
+      "price": 80,
+      "title": "kitchen accessories",
+      "image": "../images/accessories2.png",
+      "star_className": "fa-solid fa-star",
+      "cart_className": "fa-solid fa-cart-shopping",
+      "category": "Accessories",
+      "brand": "Artdeco"
+    },
+    {
+      "price": 80,
+      "title": "brown wooden round table with chairs",
+      "image": "../images/accessories3.png",
+      "star_className": "fa-solid fa-star",
+      "cart_className": "fa-solid fa-cart-shopping",
+      "category": "Accessories",
+      "brand": "Ikea"
+    },
+    {
+      "price": 80,
+      "title": "green plant on white ceramic plot",
+      "image": "../images/accessories4.png",
+      "star_className": "fa-solid fa-star",
+      "cart_className": "fa-solid fa-cart-shopping",
+      "category": "Accessories",
+      "brand": "Artdeco"
+    },
+    {
+      "price": 80,
+      "title": "brown wooden wall mounted cabinet",
+      "image": "../images/furniture5.png",
+      "star_className": "fa-solid fa-star",
+      "cart_className": "fa-solid fa-cart-shopping",
+      "category": "Furniture",
+      "brand": "Ikea"
+    },
+    {
+      "price": 80,
+      "title": "dining table set beside glass window",
+      "image": "../images/accessories5.png",
+      "star_className": "fa-solid fa-star",
+      "cart_className": "fa-solid fa-cart-shopping",
+      "category": "Accessories",
+      "brand": "Furniture Inc"
+    },
+    {
+      "price": 80,
+      "title": "brown wooden bed frame",
+      "image": "../images/accessories6.png",
+      "star_className": "fa-solid fa-star",
+      "cart_className": "fa-solid fa-cart-shopping",
+      "category": "Accessories",
+      "brand": "Artdeco"
+    },
+  
+    {
+      "price": 80,
+      "title": "brown wooden table and chair",
+      "image": "../images/furniture2.png",
+      "star_className": "fa-solid fa-star",
+      "cart_className": "fa-solid fa-cart-shopping",
+      "category": "Furniture",
+      "brand": "Furniture Inc"
+    },
+    {
+      "price": 80,
+      "title": "brown wooden table with chair",
+      "image": "../images/furniture3.png",
+      "star_className": "fa-solid fa-star",
+      "cart_className": "fa-solid fa-cart-shopping",
+      "category": "Furniture",
+      "brand": "Furniture Inc"
+    },
+    {
+      "price": 80,
+      "title": "books on table",
+      "image": "../images/table3.png",
+      "star_className": "fa-solid fa-star",
+      "cart_className": "fa-solid fa-cart-shopping",
+      "category": "Tables",
+      "brand": "Furniture Inc"
+    },
+    {
+      "price": 80,
+      "title": "empty brown wooden stools",
+      "image": "../images/furniture4.png",
+      "star_className": "fa-solid fa-star",
+      "cart_className": "fa-solid fa-cart-shopping",
+      "category": "Furniture",
+      "brand": "Artdeco"
+    },
+  
+    {
+      "price": 80,
+      "title": "brown wooden chairs and table",
+      "image": "../images/homeDeco2.png",
+      "star_className": "fa-solid fa-star",
+      "cart_className": "fa-solid fa-cart-shopping",
+      "category": "Home Deco",
+      "brand": "Furniture Inc"
+    },
+    {
+      "price": 80,
+      "title": "home decoration",
+      "image": "../images/homeDeco3.png",
+      "star_className": "fa-solid fa-star",
+      "cart_className": "fa-solid fa-cart-shopping",
+      "category": "Home Deco",
+      "brand": "Artdeco"
+    },
+    {
+      "price": 80,
+      "title": "snake plant on table",
+      "image": "../images/table5.png",
+      "star_className": "fa-solid fa-star",
+      "cart_className": "fa-solid fa-cart-shopping",
+      "category": "Tables",
+      "brand": "Furniture Inc"
+    },
+    {
+      "price": 80,
+      "title": "black dining set near white wall",
+      "image": "../images/homeDeco4.png",
+      "star_className": "fa-solid fa-star",
+      "cart_className": "fa-solid fa-cart-shopping",
+      "category": "Home Deco",
+      "brand": "The Factory"
+    },
+    {
+      "price": 80,
+      "title": "blue and white bed linen",
+      "image": "../images/bed3.png",
+      "star_className": "fa-solid fa-star",
+      "cart_className": "fa-solid fa-cart-shopping",
+      "category": "Beds",
+      "brand": "Furniture Inc"
+    },
+    {
+      "price": 80,
+      "title": "pink and white wooden kitchen cabinet",
+      "image": "../images/dressing2.png",
+      "star_className": "fa-solid fa-star",
+      "cart_className": "fa-solid fa-cart-shopping",
+      "category": "Dressings",
+      "brand": "Furniture Inc"
+    },
+  
+    {
+      "price": 80,
+      "title": "table set with plates and silverware",
+      "image": "../images/table1.png",
+      "star_className": "fa-solid fa-star",
+      "cart_className": "fa-solid fa-cart-shopping",
+      "category": "Tables",
+      "brand": "The Factory"
+    },
+    {
+      "price": 80,
+      "title": "macbook pro on brown wooden table",
+      "image": "../images/table2.png",
+      "star_className": "fa-solid fa-star",
+      "cart_className": "fa-solid fa-cart-shopping",
+      "category": "Tables",
+      "brand": "The Factory"
+    },
+  
+    {
+      "price": 80,
+      "title": "brown wooden display cabinet",
+      "image": "../images/dressing3.png",
+      "star_className": "fa-solid fa-star",
+      "cart_className": "fa-solid fa-cart-shopping",
+      "category": "Dressings",
+      "brand": "The Factory"
+    }
+  ]
+  

@@ -1,0 +1,47 @@
+[
+    {
+      "price": 180,
+      "title": "black and brown wooden chair",
+      "image": "../images/chair1.png"
+    },
+    {
+      "price": 180,
+      "title": "brown wooden framed yellow pedded chair",
+      "image": "../images/chair2.png"
+    },
+    {
+      "price": 180,
+      "title": "tufted white leather sofa chair",
+      "image": "../images/chair4.png"
+    },
+    {
+      "price": 180,
+      "title": "black floor lamp at the corner",
+      "image": "../images/lamp1.png"
+    },
+    {
+      "price": 180,
+      "title": "turned on pendant lamps",
+      "image": "../images/lamp2.png"
+    },
+    {
+      "price": 180,
+      "title": "gray sofa set",
+      "image": "../images/chair1.png"
+    },
+    {
+      "price": 180,
+      "title": "beige wooden bar stool",
+      "image": "../images/stool1.png"
+    },
+    {
+      "price": 180,
+      "title": "brown wooden table with books & mugs",
+      "image": "../images/table1.png"
+    },
+    {
+      "price": 180,
+      "title": "brown wooden framed gray padded chair",
+      "image": "../images/chair5.png"
+    }
+  ]

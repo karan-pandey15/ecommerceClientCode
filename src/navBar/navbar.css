@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: lightgray;
+  padding: 8px;
+  z-index: 1;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.nav-logo {
+  margin-left: 10px;
+  font-family: "Belanosima", sans-serif;
+}
+
+.logo-text {
+  font-size: 32px;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+
+.fa-circle {
+  color: orange;
+  margin-left: 4px;
+}
+
+.search-bar {
+}
+
+.search-field {
+  width: 600px;
+  padding: 4px;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  font-family: "Poppins", sans-serif;
+}
+
+.search-field::placeholder {
+  padding-left: 6px;
+  color: rgb(226, 226, 226);
+}
+
+.search-btn {
+  border: none;
+  padding: 5px;
+  border-radius: 4px;
+  margin-left: 8px;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  transition: all 0.3s ease-in-out;
+}
+
+.search-btn:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.sign-btn {
+  border: none;
+  padding: 8px;
+  margin-right: 11px;
+  border-radius: 2px;
+  background-color: #fff;
+  color: #333;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.sign-btn:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.navbar_icon {
+  font-size: 26px;
+  display: none;
+}
+
+#login_btn {
+  margin: 0 5px;
+  padding: 10px;
+  background: transparent;
+  border-radius: 8px;
+  color: blue;
+  border: 2px solid blue;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+#signin_btn {
+  margin: 0 5px;
+  padding: 10px;
+  background: transparent;
+  color: red;
+  border-radius: 8px;
+  border: 2px solid red;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+#login_btn:hover {
+  background-color: rgb(74, 74, 219);
+  color: #fff;
+  border: none;
+  transition: 0.5s;
+}
+#signin_btn:hover {
+  background-color: rgb(226, 87, 87);
+  color: #fff;
+  border: none;
+  transition: 0.5s;
+}
+.nonebars {
+  display: none;
+}
+
+@media (max-width: 1200px) {
+  .search-field {
+    width: 500px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .search-field {
+    width: 350px;
+  }
+}
+
+@media (max-width: 850px) {
+  .search-bar {
+    display: none;
+  }
+
+  .sign-btn {
+    display: none;
+  }
+
+  .navbar_icon {
+    display: block;
+    margin: 0 30px;
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 650px) {
+  .signnone {
+    display: none;
+  }
+  .search-bar {
+    display: none;
+  }
+  #login_btn {
+    font-size: 10px;
+    letter-spacing: 0;
+  }
+  #signin_btn {
+    font-size: 10px;
+    letter-spacing: 0;
+  }
+  .nonebars {
+    display: block;
+  }
+}

@@ -1,0 +1,10 @@
+.imgContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+.imgContainer img {
+  height: 250px;
+  width: 300px;
+  border-radius: 5px;
+  margin: 5px;
+}

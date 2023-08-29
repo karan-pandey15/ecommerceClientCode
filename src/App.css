@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.containerBox {
+  display: flex;
+  overflow: hidden;
+}
+
+main {
+  width: 100%;
+  padding: 20px;
+}
+
+.sidebar {
+  color: black;
+  height: 100vh;
+  transition: all 0.5s;
+}
+
+.top_Section {
+  display: flex;
+  align-items: center;
+  padding: 20px 15px;
+  margin: 30px;
+}
+
+.top_Section .logo {
+  width: 100px;
+  height: 50px;
+}
+.bars {
+  display: flex;
+  font-size: 25px;
+  margin: 20px;
+}
+.link_text {
+  /* width: 200px; */
+  /* text-align: center; */
+}
+ul {
+  list-style: none;
+}
+.link {
+  display: flex;
+  padding: 10px 15px;
+  gap: 15px;
+  transition: all 0.5s;
+  color: #111;
+  text-decoration: none;
+  font-weight: 500;
+}
+.link:hover {
+  color: yellow;
+  font-weight: bolder;
+}
+
+.active {
+  /* background-color: aqua; */
+  color: yellow;
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+
+.sidebar-icon {
+  color: #57606f;
+  padding-right: 4px;
+}
+
+.social-icons {
+  width: 180px;
+  margin-top: 130px;
+  display: inline-flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.social-icon {
+  font-size: 26px;
+  color: #57606f;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.social-icon:hover {
+  color: orange;
+  transform: translateY(-5px);
+}
+
+.x-icon {
+  font-size: 28px;
+  position: absolute;
+  top: -40px;
+  right: 0;
+  margin: 0 30px;
+  display: none;
+}
+
+.discount-btn {
+  padding: 12px;
+  border: none;
+  background-color: #facc42;
+  border-radius: 3px;
+  color: white;
+  font-size: 22px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: all 0.3s ease-in-out;
+  line-height: 32px;
+}
+
+.discount-btn:hover {
+  background-color: #333;
+}
+
+.new-this-week-btn {
+  padding: 12px;
+  border: none;
+  background-color: #333;
+  border-radius: 3px;
+  color: white;
+  font-size: 22px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: all 0.3s ease-in-out;
+  line-height: 32px;
+  margin-bottom: 24px;
+}

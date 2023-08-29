@@ -1,0 +1,90 @@
+.formcontainer {
+  display: flex;
+  justify-content: center;
+  left: 40%;
+  margin-top: 60px;
+}
+
+.formcontainer form {
+  width: 90%;
+  max-width: 500px;
+  padding: 50px 30px 20px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+  position: relative;
+}
+
+.fa-paper-plane {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  font-size: 25px;
+  padding: 20px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px black;
+}
+.inputGroupdata {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  position: relative;
+}
+.input-group label {
+  flex-basis: 28%;
+}
+.inputGroupdata,
+.input-group textarea {
+  flex-basis: 70%;
+  background: transparent;
+  border: none;
+  outline: none;
+  padding: 10px 0;
+  border-bottom: 1px solid #999;
+  color: #333;
+  font-size: 16px;
+}
+::placeholder {
+  font-size: 14px;
+}
+.btnClass {
+  background: #141a34;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100px;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  outline: none;
+  cursor: pointer;
+  display: block;
+  margin: 30px auto 10px;
+}
+
+input {
+  border: none;
+  outline: none;
+  margin-left: 20px;
+}
+.inputGroupdata span {
+  position: absolute;
+  bottom: 12px;
+  right: 17px;
+  font-size: 14px;
+  color: red;
+}
+#submit-error {
+  color: red;
+}
+.fa-check-circle {
+  background: white;
+  color: green;
+}
+#subit-error {
+  color: red;
+}
+section {
+  color: white;
+}

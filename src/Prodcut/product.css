@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* .product-small-img{
+    /* float: left; 
+} */
+.product_container {
+  display: flex;
+  justify-content: space-around;
+  padding: 100px 0;
+  /* margin-left: 250px; */
+}
+
+.product-small-img img:hover {
+  opacity: 0.6;
+}
+.main_img {
+  height: 500px;
+  width: 500px;
+}
+.product-small-img img {
+  /* display: block; */
+  height: 120px;
+  width: 120px;
+  margin: 10px 0;
+  margin: 15px 2.5px;
+  cursor: pointer;
+}
+
+.product_text_container {
+  display: flex;
+  justify-content: space-between;
+  margin: 100px 20px;
+  width: 500px;
+  height: 500px;
+}
+
+.productpara {
+  /* letter-spacing: 1px; */
+  color: rgb(73, 73, 73);
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+}
+.product_select {
+  height: 40px;
+  width: 140px;
+  margin: 40px 0;
+  background: #f5f7fa;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  color: #6d6d6d;
+  font-weight: bold;
+}
+
+.product_select select {
+  background: transparent;
+  border: none;
+}
+.product_button {
+  margin: 20px 0;
+  padding: 25px;
+  background: #fbb710;
+  border: none;
+  width: 250px;
+  font-size: 15px;
+  font-weight: bolder;
+  color: #fff;
+}
+.product_button:hover {
+  background-color: #292727;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+/* Responsive style start here  */
+
+@media (max-width: 1100px) {
+  .product_container {
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+  }
+}
+
+@media (max-width: 950px) {
+  .main_img {
+    height: 400px;
+    width: 410px;
+  }
+  .product-small-img img {
+    height: 80px;
+    width: 100px;
+  }
+  .product_text_container h1 {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .main_img {
+    height: 350px;
+    width: 380px;
+  }
+  .product-small-img img {
+    height: 80px;
+    width: 90px;
+  }
+  .product_text_container h1 {
+    font-size: 1.6rem;
+  }
+  .product_container {
+    margin-left: 10px;
+  }
+  .productpara p {
+    font-size: 10px;
+  }
+}

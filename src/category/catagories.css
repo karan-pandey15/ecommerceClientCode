@@ -1,0 +1,423 @@
+.catagories-container {
+  width: 20%;
+  height: auto;
+  background-color: #f5f7fa;
+  position: absolute;
+  top: -75px;
+  left: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.filter-by-names {
+  margin-top: 130px;
+}
+
+.catagory-heading {
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  font-family: "Belanosima", sans-serif;
+}
+
+.catagory-list-items {
+  list-style: none;
+  margin-top: 20px;
+}
+
+.catagory-list-items li {
+  margin: 20px 15px;
+}
+
+.catagory-item {
+  text-decoration: none;
+  color: #959595;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  transition: all 0.3s ease-in-out;
+  border: none;
+  background-color: transparent;
+}
+
+.catagory-item:hover,
+.catagory-item.active {
+  color: orange;
+}
+
+.filter-by-brands {
+  margin-top: 40px;
+}
+
+.brand-heading {
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  font-family: "Belanosima", sans-serif;
+}
+
+.catagories-by-brands {
+  list-style: none;
+  margin-top: 20px;
+}
+
+.catagories-by-brands li {
+  margin: 20px 0px;
+}
+
+.catagories-by-brands li input {
+  cursor: pointer;
+}
+
+.catagories-by-brands li label {
+  color: #959595;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  transition: all 0.3s ease-in-out;
+  padding-left: 4px;
+  cursor: pointer;
+}
+
+.filter-by-price {
+  margin-top: 40px;
+}
+
+.price-heading {
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  font-family: "Belanosima", sans-serif;
+}
+
+.price-ul {
+  list-style: none;
+  margin-top: 20px;
+}
+
+.price-ul li {
+  margin: 10px 0px;
+}
+
+.price-ul li input[type="range"] {
+  background-color: orange;
+  -webkit-appearance: none;
+  cursor: pointer;
+  border-radius: 12px;
+  height: 4px;
+}
+
+.price-ul li p {
+  color: #959595;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+
+@media (max-width: 1200px) {
+  .catagories-container {
+    width: 20%;
+  }
+
+  .filter-by-names {
+    margin-top: 130px;
+  }
+
+  .catagory-heading {
+    font-size: 22px;
+    font-weight: 500;
+  }
+
+  .catagory-list-items {
+    margin-top: 20px;
+  }
+
+  .catagory-list-items li {
+    margin: 20px 15px;
+  }
+
+  .catagory-item {
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .filter-by-brands {
+    margin-top: 40px;
+  }
+
+  .brand-heading {
+    font-size: 22px;
+    font-weight: 500;
+  }
+
+  .catagories-by-brands {
+    margin-top: 20px;
+  }
+
+  .catagories-by-brands li {
+    margin: 20px 0px;
+  }
+
+  .catagories-by-brands li label {
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 4px;
+  }
+
+  .filter-by-price {
+    margin-top: 40px;
+  }
+
+  .price-heading {
+    font-size: 22px;
+    font-weight: 500;
+  }
+
+  .price-ul {
+    margin-top: 20px;
+  }
+
+  .price-ul li {
+    margin: 10px 0px;
+  }
+
+  .price-ul li p {
+    font-size: 18px;
+    font-weight: 500;
+  }
+}
+
+@media (max-width: 1000px) {
+  .catagories-container {
+    width: 25%;
+  }
+
+  .filter-by-names {
+    margin-top: 130px;
+  }
+
+  .catagory-heading {
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .catagory-list-items {
+    margin-top: 20px;
+  }
+
+  .catagory-list-items li {
+    margin: 20px 15px;
+  }
+
+  .catagory-item {
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .filter-by-brands {
+    margin-top: 40px;
+  }
+
+  .brand-heading {
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .catagories-by-brands {
+    margin-top: 20px;
+  }
+
+  .catagories-by-brands li {
+    margin: 20px 0px;
+  }
+
+  .catagories-by-brands li label {
+    font-size: 16px;
+    font-weight: 500;
+    padding-left: 4px;
+  }
+
+  .filter-by-price {
+    margin-top: 40px;
+  }
+
+  .price-heading {
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .price-ul {
+    margin-top: 20px;
+  }
+
+  .price-ul li {
+    margin: 10px 0px;
+  }
+
+  .price-ul li p {
+    font-size: 16px;
+    font-weight: 500;
+  }
+}
+
+@media (max-width: 800px) {
+  .catagories-container {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 40px;
+  }
+
+  .filter-by-names {
+    margin-top: 130px;
+  }
+
+  .catagory-heading {
+    font-size: 22px;
+    font-weight: 500;
+  }
+
+  .catagory-list-items {
+    margin-top: 20px;
+  }
+
+  .catagory-list-items li {
+    margin: 20px 15px;
+  }
+
+  .catagory-item {
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .filter-by-brands {
+    margin-top: 40px;
+  }
+
+  .brand-heading {
+    font-size: 22px;
+    font-weight: 500;
+  }
+
+  .catagories-by-brands {
+    margin-top: 20px;
+  }
+
+  .catagories-by-brands li {
+    margin: 20px 0px;
+  }
+
+  .catagories-by-brands li label {
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 4px;
+  }
+
+  .filter-by-price {
+    margin-top: 40px;
+  }
+
+  .price-heading {
+    font-size: 22px;
+    font-weight: 500;
+  }
+
+  .price-ul {
+    margin-top: 20px;
+  }
+
+  .price-ul li {
+    margin: 10px 0px;
+  }
+
+  .price-ul li p {
+    font-size: 18px;
+    font-weight: 500;
+  }
+}
+
+@media (max-width: 650px) {
+  .catagories-container {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 40px;
+  }
+
+  .filter-by-names {
+    margin-top: 130px;
+  }
+
+  .catagory-heading {
+    font-size: 22px;
+    font-weight: 500;
+  }
+
+  .catagory-list-items {
+    margin-top: 20px;
+  }
+
+  .catagory-list-items li {
+    margin: 20px 15px;
+  }
+
+  .catagory-item {
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .filter-by-brands {
+    margin-top: 40px;
+  }
+
+  .brand-heading {
+    font-size: 22px;
+    font-weight: 500;
+  }
+
+  .catagories-by-brands {
+    margin-top: 20px;
+  }
+
+  .catagories-by-brands li {
+    margin: 20px 0px;
+  }
+
+  .catagories-by-brands li label {
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 4px;
+  }
+
+  .filter-by-price {
+    margin-top: 40px;
+  }
+
+  .price-heading {
+    font-size: 22px;
+    font-weight: 500;
+  }
+
+  .price-ul {
+    margin-top: 20px;
+  }
+
+  .price-ul li {
+    margin: 10px 0px;
+  }
+
+  .price-ul li p {
+    font-size: 18px;
+    font-weight: 500;
+  }
+}
